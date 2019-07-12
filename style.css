@@ -1,6 +1,23 @@
+body {
+    font: 16px/1.42 "roboto", Arial, Helvetica, sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
 .header{
 width: 1100px;
 height: 77px;
 background-color: #4b73b5;
 }
 
+.header {
+  background: #ffffff;
+  color: #fff;
+  margin-bottom: 38px;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+  }
+  
