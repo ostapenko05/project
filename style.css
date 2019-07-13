@@ -59,25 +59,86 @@ body {
     display: inline-block;
     vertical-align: top;
 }
- 
+
+.menu__item{
+  margin-top: 15px;
+  padding-right: 40px;
+   color: #4b73b5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
 .content{
     width: 700px;
 }
   
-.sidebar{
-  width: 300px
-  
-  font-family: Roboto;
-  text-transform: uppercase;
-  letter-spacing: 2.4px;
-  }
 
 .content__picture {
   display: block;
   max-width: 100%;
+  margin: 0;
+}
+
+.rates_title{
+width: 185px;
+height: 151px;
+color: #221f1f;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
 }
 
 .rates__section{
+    display: inline-block;
+  width: 27%;
+  margin-top: 50px;
+  text-align: center;
+  }
+
+  .rates__name{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 51.38px;
+    text-transform: uppercase;
+        letter-spacing: 2.88px;
+  }
+
+  .rates__picture{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background-color: #4b73b5;
+    text-align: center;
+     }
+
+     .rates__par{
+      width: 185px;
+      height: 50px;
+      color: #221f1f;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 300;
+       }
+
+       .rates__list{
+
+        width: 185px;
+        height: 50px;
+        color: #221f1f;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+       }
+
+.news__pic .news__time{
   display: inline-block;
-  vertical-align: top;
 }
+
+.
