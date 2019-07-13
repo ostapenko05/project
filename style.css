@@ -51,8 +51,9 @@ ul>li {
 }
 
 .working__time {
-    opacity: .7;
-    font-size: 14px;
+  text-decoration: underline;
+  opacity: .7;
+  font-size: 14px;
 }
 
 .sidebar,
@@ -62,16 +63,81 @@ ul>li {
 }
 
 .menu__item {
-    margin-top: 15px;
-    padding-left: 20px;
-    padding-right: 40px;
-    color: #4b73b5;
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 54px;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
+vertical-align: middle;
+margin-top: 15px;
+padding-left: 20px;
+padding-right: 40px;
+color: #4b73b5;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 54px;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+}
+
+.menu__item {
+  margin-bottom: 15px;
+}
+
+.menu__text {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4b73b5;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu__text:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 18px;
+  background: no-repeat center center;
+  margin-right: 20px;
+}
+
+.menu__text{
+text-decoration: none;
+}
+
+.menu__text:hover {
+  color: #000;
+}
+
+.menu__text--icon--plain:before {
+  background-image: url('./img/plain.png'); 
+}
+
+.menu__text--icon--plain:hover:before {
+  background-image: url('./img/plain-hover.png'); 
+}
+
+.menu__text--icon--feed:hover:before {
+  background-image: url('./img/feed-hover.png'); 
+}
+
+.menu__text--icon--feed:before {
+  background-image: url('./img/feed_icon.png'); 
+}
+
+.menu__text--icon--team:hover:before {
+  background-image: url('./img/team_icon-hover.png'); 
+}
+
+.menu__text--icon--team:before {
+  background-image: url('./img/team_icon.png'); 
+}
+
+.menu__text--active {
+  color: #000;
+}
+
+.menu__text--active.menu__text--icon--plain:before {
+  background-image: url('./img/icons/menu/plain-hover.png'); 
 }
 
 .content {
@@ -85,13 +151,11 @@ max-width: 100%;
 margin: 0;
 }
 
-.rates_title {
-width: 185px;
-height: 151px;
+.rates__title {
 color: #221f1f;
 font-family: Roboto;
-font-size: 18px;
-font-weight: 300;
+font-size: 49px;
+font-weight: 700;
 line-height: 30px;
 }
 
@@ -99,11 +163,11 @@ line-height: 30px;
 display: inline-block;
 width: 27%;
 margin-top: 50px;
-margin-right: 41px;
+margin-right: 62px;
 }
 
-.rates__section :nth-child(rates__section3){
-margin-right: 0;
+.rates__section:last-child{
+margin-right: 0px;
 }
 
 .rates__text{
@@ -147,6 +211,7 @@ padding-top: 18px;
 }
 
 .rates__list {
+  padding-left: 25px;
     width: 185px;
     height: 50px;
     color: #221f1f;
@@ -154,8 +219,13 @@ padding-top: 18px;
     font-size: 18px;
     font-weight: 300;
 }
+
 .rates__list>li{
 list-style: outside;
+}
+
+.rates__list{
+  vertical-align: middle
 }
 
 .rates__price {
@@ -164,7 +234,9 @@ height: 40px;
 color: #212121;
 font-family: Roboto;
 font-size: 54px;
+font-weight: 400;
 letter-spacing: -1.07px;
+margin-left: 45px;
 }
 
 .news__headline{
@@ -172,7 +244,7 @@ width: 450px;
 height: 43px;
 color: #221f1f;
 font-family: Roboto;
-font-size: 45px;
+font-size: 49px;
 font-weight: 700;
 line-height: 38px;
 }
