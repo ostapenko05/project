@@ -16,7 +16,7 @@ body {
   .header {
     background:  #4b73b5;
     color: #fff;
-    margin-bottom: 100px;
+    margin-bottom: 13px;
   }
   
   .container {
@@ -55,9 +55,29 @@ body {
     font-size: 14px;
   }
   
-  .content, .maincontent{
+  .sidebar, .content{
     display: inline-block;
     vertical-align: top;
-        }
+}
  
+.content{
+    width: 700px;
+}
   
+.sidebar{
+  width: 300px
+  
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  }
+
+.content__picture {
+  display: block;
+  max-width: 100%;
+}
+
+.rates__section{
+  display: inline-block;
+  vertical-align: top;
+}
