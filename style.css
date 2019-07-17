@@ -13,10 +13,19 @@ ul>li {
   list-style: none;
 }
 
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+}
+
 .header {
   background: #4b73b5;
   color: #fff;
   margin-bottom: 13px;
+}
+
+.maincontent {
+  width: 100%;
 }
 
 .container {
@@ -99,21 +108,21 @@ ul>li {
   margin-right: 20px;
 }
 
-.menu__text {
+/* .menu__text {
   text-decoration: none;
-}
+} */
 
 .menu__text:hover {
   color: #000;
 }
 
-.menu__text--icon--plain:before {
+/* .menu__text--icon--plain:before {
   background-image: url('./img/plain.png'); 
-}
+} */
 
-.menu__text--icon--plain:hover:before {
+/* .menu__text--icon--plain:hover:before {
   background-image: url('./img/plain-hover.png'); 
-}
+} */
 
 .menu__text--icon--feed:hover:before {
   background-image: url('./img/feed-hover.png'); 
@@ -131,16 +140,29 @@ ul>li {
   background-image: url('./img/team_icon.png'); 
 }
 
-.menu__text--active {
+.menu__item--active {
   color: #000;
 }
 
-.menu__text--active.menu__text--icon--plain:before {
+.menu__item--active.menu__text--icon--plane:before {
+  background-image: url('./img/plain-hover.png');
+}
+
+/* .menu__text--icon--plain:before {
   background-image: url('./img/icons/menu/plain-hover.png'); 
+} */
+
+/* .menu__text-icon-plain--active {
+  background-image: url('./img/plain-hover.png');
+  background-repeat: no-repeat;
+} */
+
+.sidebar {
+  width: 18%;
 }
 
 .content {
-  width: 700px;
+  width: 80%;
 }
 
 
