@@ -6,34 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Airplanet</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:300,400,400i,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:300,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
     <div class="wrapper">
-
-        <!--  начался header -->
-
         <header class="header">
-
             <div class="container header__container">
-                <a href="/" class="logo">
+                <a href="#" class="logo">
                     <img src="./img/logo_header.png" class="logo__img" alt="Айрпланет">
                 </a>
-
                 <address class="contacts">
                     <a href="tel:+78000039210" class="contacts__phone">
                         8(800) 00-392-10</a>
                     <div class="working__time">График работы</div>
                 </address>
             </div>
-
         </header>
-        <!-- закончился header -->
-        <!-- начался sidebar -->
         <div class="maincontent">
             <div class="container">
                 <aside class="sidebar">
@@ -51,15 +41,16 @@
                         </ul>
                     </nav>
                 </aside>
-                <!-- законился sidebar -->
-                <!-- начался контент -->
                 <div class="content">
                     <div class="content__picture">
                         <img src="./img/Photo.png" alt="изображение контента">
                     </div>
+                    
 
                     <div class="content__rates">
-                        <h1 class="content__title">Тарифы</h1>
+                        <div class="content__title">
+                            <h3>Тарифы</h3>
+                        </div>
                         <ul class="rates">
                             <li class="rates__section">
                                 <div class="rates__text">
@@ -73,7 +64,9 @@
                                         <li>Багаж (5кг)</li>
                                         <li>Детское кресло</li>
                                     </ul>
-                                    <span class="rates__price">$19</span>
+                                    <div class="rates__price">
+                                        <span class="rates__price-elem">$19</span>
+                                    </div>
                                 </div>
                             </li>
 
@@ -91,7 +84,9 @@
                                         <li>Багаж (5кг)</li>
                                         <li>Детское кресло</li>
                                     </ul>
-                                    <span class="rates__price">$39</span>
+                                    <div class="rates__price">
+                                        <span class="rates__price-elem">$39</span>
+                                    </div>
                                 </div>
                             </li>
 
@@ -104,23 +99,25 @@
                                     <h2 class="rates__par">
                                         Все самое лучшее и незабываемое</h2>
                                         <div class="rates__list-block">
-                                        <ul class="rates__list">
+                                    <ul class="rates__list">
                                         <li>Питание вкючено</li>
                                         <li>Багаж (5кг)</li>
                                         <li>Детское кресло</li>
-                                        </ul>
-                                        </div>
-                                    <span class="rates__price">$99</span>
+                                    </ul>
+                                    </div>
+                                        <div class="rates__price">
+                                        <span class="rates__price-elem">$99</span>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
 
                     </div>
-
+                       
                     <div class="container__news">
-                    <div class="content__title">
-                    <h3>Последние новости</h3>
-                    </div>
+                        <div class="content__title">
+                            <h3>Последние новости</h3>
+                        </div> 
                     <div class="news">
                         <ul class="news__list">
                             <li class="news__section">
@@ -235,10 +232,8 @@
                 </div>
             </div>
         </div>
-        <!-- закончился контент -->
-        <!-- начался футтер -->
         <footer class="footer">
-            <div class="footer__container">
+            <div class="container">
                 <div class="footer__text">
                     <p class="text__autor">Сделано с любовью и старанием <br>на курсе &laquo;HTML + CSS&raquo; в <b><a class="loftschool" href="https://loftschool.com">Loftschool</a></b><br>
                         Автор работы:<b>Остапенко Аркадий</b>
@@ -271,9 +266,7 @@
                 </address>
             </div>
         </footer>
-            <!-- закончился футтер -->
     </div>
-        <!--!Закончился врапер-->
 </body>
 
 </html>
