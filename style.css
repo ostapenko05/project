@@ -217,7 +217,7 @@ ul>li {
 
 .rates__text {
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
 }
 
 .rates__name {
@@ -265,14 +265,14 @@ ul>li {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 300;
-}
+  }
 
 .rates__list>li {
   list-style: outside;
 }
 
 .rates__list {
-  vertical-align: middle
+  vertical-align: left;
 }
 
 .rates__price {
