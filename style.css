@@ -156,15 +156,6 @@ body {
     background-image: url('./img/plain-hover.png');
   }
   
-  /* .menu__text--icon--plain:before {
-    background-image: url('./img/icons/menu/plain-hover.png'); 
-  } */
-  
-  /* .menu__text-icon-plain--active {
-    background-image: url('./img/plain-hover.png');
-    background-repeat: no-repeat;
-  } */
-  
   .sidebar {
     width: 18%;
   }
@@ -172,8 +163,7 @@ body {
   .content {
     width: 81%;
   }
-  
-  
+    
   .content__picture {
     display: block;
     overflow: hidden;
