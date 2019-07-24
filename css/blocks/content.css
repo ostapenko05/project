@@ -1,0 +1,19 @@
+.content {
+  width: 81%;
+}
+
+.content__picture {
+  display: block;
+  margin: 0;
+}
+
+.content__title {
+  color: #221f1f;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 7px;
+  padding-left: -8px;
+  box-sizing: border-box;
+}

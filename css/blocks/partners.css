@@ -1,0 +1,25 @@
+.partners__logo {
+	display: flex;
+	width: 100%;
+	margin-bottom: -55px;
+}
+
+.partners__logo:last-child {
+	margin-bottom: -14px;
+}
+
+.partners__logo-pic {
+	width: calc(100% / 3);
+	text-align: center;
+	filter: opacity(30%);
+	cursor: pointer;
+}
+
+.content__title.partners__title {
+	margin-bottom: 0px;
+}
+
+.partners__logo-pic:hover {
+	filter: opacity(100%);
+	transition: 1s;
+}

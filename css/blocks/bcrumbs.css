@@ -1,0 +1,26 @@
+.bcrumbs__text:before {
+	content: '/';
+}
+
+.bcrumbs__text:first-child:before {
+	content: none;
+}
+
+.bcrumbs__text {
+	display: inline-block;
+	box-sizing: border-box;
+	padding-top: 29px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.bcrumbs__text:last-child {
+	text-decoration: none;
+	color: black;
+}
+
+.content__title.views__title {
+	line-height: 0px;
+	padding-top: 0;
+	margin-top: -10px;
+}
