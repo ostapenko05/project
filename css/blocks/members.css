@@ -12,7 +12,7 @@
 	margin-right: 40px;
 }
 
-.members__section:last-child {
+.members__section:nth-child(3n) {
 	margin-right: 0;
 }
 
