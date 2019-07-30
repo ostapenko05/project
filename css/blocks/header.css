@@ -30,8 +30,24 @@
 }
 
 .working__time {
+  display: flex;
+  flex: 
+  position: relative;
   text-decoration: underline;
   opacity: .7;
   font-size: 14px;
   margin-top: -3px;
+}
+
+.working__time:hover .working__menu {
+  display: block;
+}
+
+.working__menu {
+  position: absolute;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  top: 100%;
+  display: none;
 }
