@@ -1,15 +1,11 @@
 .partners__logo {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
-	margin-bottom: -55px;
-}
-
-.partners__logo:last-child {
-	margin-bottom: -14px;
-}
+	}
 
 .partners__logo-pic {
-	width: calc(100% / 3);
+	width: calc(100% / 3 );
 	text-align: center;
 	filter: opacity(30%);
 	cursor: pointer;

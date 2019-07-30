@@ -1,12 +1,13 @@
 .members {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	margin-bottom: 10px;
 	padding-left: 17px;
 }
 
 .members__section {
-	width: calc(100% / 3);
+	width: calc(100% / 3 - 40px);
 	text-align: center;
 	margin-right: 40px;
 }
@@ -24,8 +25,13 @@
 	cursor: pointer;
 }
 
-.content__title.content__title-members {
-	margin-top: -30px;
+.content__members-title {
+	color: #221f1f;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 30px;
+   box-sizing: border-box;
 }
 
 .block__photo {

@@ -1,11 +1,12 @@
 .question {
 	background: url(../../img/commentsfon.png);
-	margin-top: 78px;
+	margin-bottom: 60px;
 }
 
 .question__container {
 	display: flex;
 	max-width: 100%;
+	justify-content: center;
 }
 
 .question__text {

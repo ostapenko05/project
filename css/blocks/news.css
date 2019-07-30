@@ -15,6 +15,7 @@
 
 .news__section:last-child {
   border: none;
+  margin-bottom: 0;
 }
 
 .news__pic {

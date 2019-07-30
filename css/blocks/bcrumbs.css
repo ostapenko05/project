@@ -1,26 +1,28 @@
-.bcrumbs__text:before {
+.bcrumbs {
+	padding-top: 29px;
+}
+
+
+.bcrumbs__name:before {
 	content: '/';
 }
 
-.bcrumbs__text:first-child:before {
+.bcrumbs__name:first-child:before {
 	content: none;
 }
 
-.bcrumbs__text {
+.bcrumbs__name {
 	display: inline-block;
 	box-sizing: border-box;
-	padding-top: 29px;
+	/* padding-top: 29px; */
 	font-style: italic;
 	font-size: 14px;
 }
 
-.bcrumbs__text:last-child {
+.bcrumbs__text--active.bcrumbs__text{
 	text-decoration: none;
 	color: black;
 }
 
-.content__title.views__title {
-	line-height: 0px;
-	padding-top: 0;
-	margin-top: -10px;
-}
+
+
