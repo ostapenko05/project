@@ -1,0 +1,37 @@
+.header {
+  background: #4b73b5;
+  color: #fff;
+  margin-bottom: 13px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.logo {
+  padding: 5px 0;
+}
+
+.contacts {
+  top: 20px;
+  right: 21px;
+  text-align: right;
+  font-style: normal;
+  margin-right: -8px;
+}
+
+.contacts__phone {
+  color: inherit;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.working__time {
+  text-decoration: underline;
+  opacity: .7;
+  font-size: 14px;
+  margin-top: -3px;
+}

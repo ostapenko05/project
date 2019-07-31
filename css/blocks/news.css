@@ -1,0 +1,45 @@
+.news {
+  /* margin-top: 80px; */
+  margin-bottom: 30px;
+}
+
+.news__block {
+  display: flex;
+}
+
+.news__section {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #f5f5f5;
+}
+
+.news__section:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+
+.news__pic {
+  margin: 0;
+  width: 21%;
+}
+
+.news__box {
+  width: 80%;
+}
+
+.news__title-head {
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.news__time {
+  font-size: 0.9em;
+}
+
+.news__text {
+  font-size: 1.1em;
+  margin-top: -5px;
+  line-height: 1.7em;
+}

@@ -1,0 +1,8 @@
+.maincontent {
+  width: 100%;
+}
+
+.sidebar, .content {
+  display: inline-block;
+  vertical-align: top;
+}

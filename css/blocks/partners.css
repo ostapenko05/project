@@ -1,0 +1,21 @@
+.partners__logo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	}
+
+.partners__logo-pic {
+	width: calc(100% / 3 );
+	text-align: center;
+	filter: opacity(30%);
+	cursor: pointer;
+}
+
+.content__title.partners__title {
+	margin-bottom: 0px;
+}
+
+.partners__logo-pic:hover {
+	filter: opacity(100%);
+	transition: 1s;
+}

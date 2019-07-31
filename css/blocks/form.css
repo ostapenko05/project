@@ -1,0 +1,138 @@
+.question-form {
+	width: 690px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	margin-bottom: 45px;
+	box-sizing: border-box;
+}
+
+.form__title {
+  color: #221f1f;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 7px;
+  padding-left: -8px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.form {
+	padding: 50px 9%;	
+}
+
+.form__input {
+	padding: 15px 9px;
+	border-style: none;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.form__block:last-child {
+	margin-right: 0;
+}
+
+.form__block {
+	margin-right: 30px;
+	flex: 1;
+}
+
+.form__row {
+	display: flex;
+	margin-bottom: 35px;
+}
+
+.form__row:last-child {
+	margin-bottom: 0;
+}
+
+.question-form__title {
+	margin: 0;
+}
+
+.form__input--textarea {
+	resize: vertical;
+	height: 90px;
+	max-height: 300px;
+}
+
+.form__row-question, .form__row-button {
+	flex: 1;
+	/* margin-top: -20px; */
+}
+
+.yes {
+	margin-right: 25px;
+}
+
+.yes, .no {
+	cursor: pointer;
+}
+
+.yes:after {
+	content: 'Да';
+	margin-left: 20px;
+}
+
+.no:after {
+	content: 'Нет';
+	margin-left: 20px;
+}
+
+.yes:focus {
+	color: blue;
+}
+
+.no:focus {
+	color: blue;
+}
+
+.radio-button {
+	margin-top: -15px;
+}
+
+.form__row-button {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button__elem {
+	display: flex;
+	height: 47px;
+	width: 175px;
+	/* margin-left: 50%; */
+	/* margin-top: 5%; */
+	margin-bottom: -20px;
+	background-color: #4b73b5;
+	border-style: none;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	color: white;
+	/* padding: 0 0px; */
+	cursor: pointer;
+}
+
+.button__elem:hover {
+	background-color: white;
+	color: #4b73b5;
+}
+
+.pip:before {
+	background-image: url(../../img/plane-white.png);
+}
+
+.pip, .pop {
+	box-sizing: border-box;
+}
+
+.pip {
+	font-size: 11px;
+	margin: 17px 15px;
+}
+
+.pop {
+	padding: 10px 0;
+}

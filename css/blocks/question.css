@@ -1,0 +1,27 @@
+.question {
+	background: url(../../img/commentsfon.png);
+	margin-bottom: 60px;
+}
+
+.question__container {
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+}
+
+.question__text {
+	line-height: 1.8em;
+	padding-left: 20px;
+	color: white;
+	width: 70%;
+	padding: 22px 0;
+}
+
+.question__text-anchor, .question__text-phone {
+	color: white;
+	font-weight: bold;
+}
+
+.question__text-phone {
+	text-decoration: none;	
+}

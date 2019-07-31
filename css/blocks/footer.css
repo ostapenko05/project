@@ -1,0 +1,40 @@
+.footer__container {
+  position: relative;
+  height: 77px;
+}
+
+.footer {
+  background: #4b73b5;
+  color: #fff;
+}
+
+.footer__logo, .footer__text, .footer-contacts, .social__item, .footer__social {
+  display: inline-block;
+}
+
+.footer__text {
+  width: 300px;
+}
+
+.footer__logo {
+  margin-top: -20px;
+  width: 450px;
+  text-align: center;
+}
+
+.footer-contacts {
+  text-align: right;
+  font-style: normal;
+  position: absolute;
+  width: 300px;
+}
+
+.footer__text, .footer-contacts {
+  font-size: 14px;
+  padding-bottom: 0px;
+  opacity: .7;
+}
+
+.loftschool {
+  color: white;
+}
