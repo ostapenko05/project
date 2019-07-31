@@ -8,7 +8,7 @@
 }
 
 .form__title {
-	color: #221f1f;
+  color: #221f1f;
   font-family: Roboto;
   font-size: 45px;
   font-weight: 700;
@@ -16,7 +16,7 @@
   padding-top: 7px;
   padding-left: -8px;
   box-sizing: border-box;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .form {
@@ -42,7 +42,7 @@
 
 .form__row {
 	display: flex;
-	margin-bottom: 18px;
+	margin-bottom: 35px;
 }
 
 .form__row:last-child {
@@ -102,15 +102,16 @@
 .button__elem {
 	display: flex;
 	height: 47px;
-	/* width: 175px; */
+	width: 175px;
 	/* margin-left: 50%; */
-	margin-top: 5%;
+	/* margin-top: 5%; */
+	margin-bottom: -20px;
 	background-color: #4b73b5;
 	border-style: none;
 	letter-spacing: 3px;
 	border-radius: 5px;
 	color: white;
-	padding: 0 20px;
+	/* padding: 0 0px; */
 	cursor: pointer;
 }
 
@@ -129,7 +130,7 @@
 
 .pip {
 	font-size: 11px;
-	margin: 17px 0;
+	margin: 17px 15px;
 }
 
 .pop {
