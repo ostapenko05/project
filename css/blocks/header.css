@@ -31,7 +31,6 @@
 
 .working__time {
   display: flex;
-  flex: 
   position: relative;
   text-decoration: underline;
   opacity: .7;
@@ -45,7 +44,7 @@
 
 .working__menu {
   position: absolute;
-  background: #fff;
+  background: #aa3030;
   border-radius: 5px;
   padding: 15px;
   top: 100%;
