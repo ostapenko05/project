@@ -1,6 +1,7 @@
 .question {
-	background: url(../../img/commentsfon.png);
-	margin-bottom: 60px;
+	background: url(../../img/fon_question_.png);
+	margin-bottom: 15px;
+	margin-top: 45px;
 }
 
 .question__container {
@@ -11,10 +12,11 @@
 
 .question__text {
 	line-height: 1.8em;
-	padding-left: 20px;
+	padding-left: 0px;
 	color: white;
-	width: 70%;
-	padding: 22px 0;
+	width: 89%;
+	padding: 0px 0;
+	text-align: center;
 }
 
 .question__text-anchor, .question__text-phone {

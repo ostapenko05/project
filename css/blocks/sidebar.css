@@ -1,10 +1,19 @@
 .sidebar {
-  margin-top: -3px;
-  margin-left: -3px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .sidebar {
-  width: 17%;
+  width: 23%;
+}
+
+.footer-contacts {
+  display: flex;
+  font-style: normal;
+}
+
+.footer__social {
+  -ms-flex-align: center;
 }
 
 .social__item {
@@ -17,7 +26,7 @@
   cursor: pointer;
 }
 
-.social__item, .footer__social {
+.social__item {
   display: inline-block;
 }
 
