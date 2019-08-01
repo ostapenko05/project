@@ -31,28 +31,66 @@
 
 .working__time {
   display: flex;
-  position: relative;
+  justify-content:flex-end;
   text-decoration: underline;
   opacity: .7;
   font-size: 14px;
   margin-top: -3px;
+  cursor: pointer;
+  top: 100%;
 }
 
-.working__time:hover .working__menu {
-  display: block;
+.working__time:hover {
+  opacity: 1;
+}
+
+.working__time:hover .working__triangle {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.working__time:hover .working__list{
+  display: flex;
+  box-shadow: 0 0 10px  rgb(0, 0 ,0 ,.7);
 }
 
 .working__menu {
   position: absolute;
-  background: #aa3030;
+  top: 6%;
+}
+
+.working__list {
+  color: black;
+  background-color: #fff;
   border-radius: 5px;
   padding: 15px;
-  top: 100%;
   display: none;
 }
 
 .working__list-one {
-  
+  color: blue;
+  font: "Roboto - Bold";
+  font-weight: 700;
 }
 
-.working__list-two, 
+.triangle {
+  display: inline-flex;
+  height: 0;
+  width: 0;
+  border: 13px solid transparent;
+  border-bottom-width: 15px;
+  border-bottom-color: white;
+  border-top-width: 0;
+  padding: 0;
+}
+
+.working__time-title {
+  width: 100%;
+  flex: 1;
+}
+
+.working__triangle {
+  display: none;
+}
+
