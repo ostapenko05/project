@@ -35,3 +35,8 @@
 .social__item:hover {
   opacity: 2;
 }
+
+.footer-contacts__title {
+ font-weight: bold;
+ font-family: Roboto;
+}
