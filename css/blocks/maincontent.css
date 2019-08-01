@@ -112,10 +112,8 @@
   margin-right: 0px;
 }
 
-/* new-styles */
-
 .menu--horizontal {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .menu--horizontal .menu__list {
