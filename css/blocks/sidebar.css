@@ -8,8 +8,10 @@
 }
 
 .footer-contacts {
-  display: flex;
+  /* display: flex;
+  justify-items: center; */
   font-style: normal;
+  padding: 0px 50px;
 }
 
 .footer__social {

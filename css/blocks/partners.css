@@ -1,6 +1,8 @@
 .partners__main {
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 20px;
+	border: 2px solid #e9eaee;
+	
 }
 
 .partners__logo {
