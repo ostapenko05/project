@@ -42,17 +42,20 @@
 
 .working__time:hover {
   opacity: 1;
+  transition: 3ms;
 }
 
 .working__time:hover .working__triangle {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
+  transition: 3ms;
 }
 
 .working__time:hover .working__list{
   display: flex;
   box-shadow: 0 0 10px  rgb(0, 0 ,0 ,.7);
+  transition: 3ms;
 }
 
 .working__menu {

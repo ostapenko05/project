@@ -4,8 +4,8 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  width: 272px;
-  height: 372px;
+  /* width: 272px;
+  height: 372px; */
   border: 1px solid #e8e9ed;
   margin-bottom: 25px;
   padding: 0px 20px;
@@ -14,7 +14,6 @@
 
 .rates__text {
   text-align: left;
-  /* padding-left: 20px; */
 }
 
 .rates__name {
@@ -70,7 +69,6 @@
 
 .rates__list {
   padding-left: 0px;
-  /* vertical-align: left; */
 }
 
 .rates__price {

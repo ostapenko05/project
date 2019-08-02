@@ -51,6 +51,7 @@
     width: 18px;
     height: 18px;
     background-position: -16px -16px;
+    transition-duration: .1s;
  }
 
 .auth__welcome:hover {
