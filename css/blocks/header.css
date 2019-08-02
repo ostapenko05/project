@@ -37,7 +37,7 @@
   font-size: 14px;
   margin-top: -3px;
   cursor: pointer;
-  top: 100%;
+  position: relative;
 }
 
 .working__time:hover {
@@ -57,7 +57,7 @@
 
 .working__menu {
   position: absolute;
-  top: 6%;
+  top: 100%;
 }
 
 .working__list {
