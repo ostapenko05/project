@@ -33,34 +33,35 @@
   display: flex;
   justify-content:flex-end;
   text-decoration: underline;
-  opacity: .7;
   font-size: 14px;
   margin-top: -3px;
-  cursor: pointer;
   position: relative;
 }
 
-.working__time:hover {
+
+.working__time-title:hover {
   opacity: 1;
-  transition: 3ms;
+  width: 100%;
+  /* transition: 3ms; */
 }
 
-.working__time:hover .working__triangle {
+.working__time-title:hover .working__triangle {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
-  transition: 3ms;
+  /* transition: 3ms; */
 }
 
-.working__time:hover .working__list{
+.working__time-title:hover .working__list{
   display: flex;
   box-shadow: 0 0 10px  rgb(0, 0 ,0 ,.7);
-  transition: 3ms;
+  /* transition: 3ms; */
 }
 
 .working__menu {
   position: absolute;
   top: 100%;
+  /* margin-right: -40px; */
 }
 
 .working__list {
@@ -78,7 +79,7 @@
 }
 
 .triangle {
-  display: inline-flex;
+  display: flex;
   height: 0;
   width: 0;
   border: 13px solid transparent;
@@ -89,8 +90,12 @@
 }
 
 .working__time-title {
-  width: 100%;
-  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  /* flex: 1; */
+  cursor: pointer;
+  position: relative;
+  opacity: .5;
 }
 
 .working__triangle {
