@@ -2,7 +2,6 @@
 	margin-top: 0px;
 	margin-bottom: 20px;
 	border: 2px solid #e9eaee;
-	
 }
 
 .partners__logo {
@@ -14,10 +13,8 @@
 	}
 
 .partners__logo-pic {
-	/* overflow: hidden; */
 	height: 100px;
 	width: 200px;
-	/* width: calc(100% / 1 ); */
 	text-align: center;
 	filter: opacity(30%);
 	cursor: pointer;
@@ -25,7 +22,6 @@
 
 .partners__title {
 	margin-bottom: 0px;
-	/* text-decoration: none; */
 	text-align: center;
 }
 

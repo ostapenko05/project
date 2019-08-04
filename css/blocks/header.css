@@ -42,26 +42,25 @@
 .working__time-title:hover {
   opacity: 1;
   width: 100%;
-  /* transition: 3ms; */
+  transition: 3ms;
 }
 
 .working__time-title:hover .working__triangle {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
-  /* transition: 3ms; */
+  transition: 3ms;
 }
 
 .working__time-title:hover .working__list{
   display: flex;
   box-shadow: 0 0 10px  rgb(0, 0 ,0 ,.7);
-  /* transition: 3ms; */
+  transition: 3ms;
 }
 
 .working__menu {
   position: absolute;
   top: 100%;
-  /* margin-right: -40px; */
 }
 
 .working__list {
@@ -92,7 +91,6 @@
 .working__time-title {
   display: flex;
   justify-content: flex-end;
-  /* flex: 1; */
   cursor: pointer;
   position: relative;
   opacity: .5;

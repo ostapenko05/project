@@ -98,8 +98,6 @@
   background-image: url('../../img/plain-hover.png');
 }
 
-/* новые стили */
-
 .menu--horizontal {
   display: flex;
 }

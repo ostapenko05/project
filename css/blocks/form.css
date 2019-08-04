@@ -61,7 +61,6 @@
 
 .form__row-question, .form__row-button {
 	flex: 1;
-	/* margin-top: -20px; */
 }
 
 .yes {
@@ -82,11 +81,11 @@
 	margin-left: 20px;
 }
 
-.yes:focus {
+.yes:checked {
 	color: blue;
 }
 
-.no:focus {
+.no:checked {
 	color: blue;
 }
 
@@ -115,11 +114,11 @@
 .button__elem:hover {
 	background-color: white;
 	color: #4b73b5;
-	transition: 3ms;
+	transition: .5s;
 }
 
 .pip:before {
-	background-image: url(../../img/plane-white.png);
+	background-image: url(./../../img/sprite.png) 0px 0px;
 }
 
 .pip, .pop {
@@ -133,4 +132,8 @@
 
 .pop {
 	padding: 10px 0;
+}
+
+.pop:before {
+	background-image: url(./../../img/sprite.png) -48px -18px;
 }
