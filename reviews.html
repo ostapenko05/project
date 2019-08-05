@@ -241,10 +241,22 @@
                                 <div class="form__text">
                                     <p>Отображать фото в отзыве?</p>
                                 </div>
-                                <label class="radio">
-                                    <input name="radio__name" checked="checked" type="radio" class="yes">
-                                    <input name="radio__name" type="radio" class="no">
-                                </label>
+                                <div class="radio">
+                                    <label class="radio">
+                                        <input name="radio__name" type="radio" checked="checked" class=radio__input>
+                                        <div class="radio__check">
+                                            <div class="radio__check-circle"></div>
+                                        </div>
+                                        <div class="radio__block">Да</div>
+                                    </label>
+                                    <label class="radio">
+                                        <input name="radio__name" type="radio" class="radio__input">
+                                        <div class="radio__check">
+                                            <div class="radio__check-circle"></div>
+                                        </div>
+                                        <div class="radio__block">Нет</div>   
+                                    </label>
+                                </div>        
                             </div>
                             <div class="form__row-button">
                                 <button type="submit" class="button__elem">
