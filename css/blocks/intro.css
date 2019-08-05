@@ -1,0 +1,85 @@
+.wrapper-intro {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url('../../img/airplanet_intro.png') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth__content {
+    
+    display: flex;
+    flex-direction: column;
+    animation: myanimation .5s 1s cubic-bezier(.3, .96, .56, .81);
+}
+
+.auth__logo {
+    display: block;
+    max-width: 58%;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.auth__welcome {
+    display: flex;
+    flex: initial;
+    border: 1px solid currentColor;
+    padding: 14px 22px;
+    border-radius: 4px;
+    color:  #4b73b5;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+.auth__icon:after {
+    content: "";
+    display: block;
+    margin-left: 10px;
+    width: 18px; 
+    height: 18px;
+    background: url('./../../img/sprites.png') -10px -93px;
+    }
+
+.auth__icon:hover:after{
+    width: 18px;
+    height: 18px;
+    background-position: -16px -16px;
+    transition-duration: .1s;
+ }
+
+.auth__welcome:hover {
+    background: #4b73b5;
+    color: #ffffff;
+    transition-duration: .1s;
+}
+
+@keyframes myanimation {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+   }
+
+   30% {
+       opacity: 1;
+       transform: translateY(-30px);
+   }
+
+   40% {
+    transform: translateY(0);
+   }
+
+   70% {
+    transform: translateY(-15px);
+   }
+
+   80% {
+    transform: translateY(0);
+   }
+}

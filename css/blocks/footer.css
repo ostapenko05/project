@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-.footer__logo, .footer__text, .footer-contacts, .social__item, .footer__social {
+.footer__logo, .footer__text, .footer-contacts {
   display: inline-block;
 }
 
@@ -18,15 +18,8 @@
 
 .footer__logo {
   margin-top: -20px;
-  width: 450px;
-  text-align: center;
-}
-
-.footer-contacts {
+  width: 850px;
   text-align: right;
-  font-style: normal;
-  position: absolute;
-  width: 300px;
 }
 
 .footer__text, .footer-contacts {

@@ -61,37 +61,52 @@
 
 .form__row-question, .form__row-button {
 	flex: 1;
-	/* margin-top: -20px; */
 }
 
-.yes {
-	margin-right: 25px;
-}
-
-.yes, .no {
+.radio {
+	display: inline-flex;
+	align-items: center;
 	cursor: pointer;
+	margin: 0 20px 0 0;
 }
 
-.yes:after {
-	content: 'Да';
-	margin-left: 20px;
+.radio__input {
+	display: none;
+	margin: 0;
 }
 
-.no:after {
-	content: 'Нет';
-	margin-left: 20px;
+.radio__input:checked ~ .radio__block {
+	color: rgb(29, 91 ,195);
 }
 
-.yes:focus {
-	color: blue;
+.radio__input:checked ~ .radio__check {
+	background-image: linear-gradient(white, lightgrey);
 }
 
-.no:focus {
-	color: blue;
+.radio__check {
+	position: relative;
+	height: 15px;
+	width: 15px;
+	margin-right: 7px;
+	border-radius: 50%;
+	background-image: linear-gradient(lightgrey, white);
 }
 
-.radio-button {
-	margin-top: -15px;
+.radio__check-circle {
+	display: none;
+}
+
+.radio__input:checked ~ .radio__check .radio__check-circle {
+	display: block;
+	width: 6px;
+	height: 6px;
+	background-color: rgb(29, 91 ,195);
+	border-radius: 50%;
+	margin: auto;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .form__row-button {
@@ -103,25 +118,23 @@
 	display: flex;
 	height: 47px;
 	width: 175px;
-	/* margin-left: 50%; */
-	/* margin-top: 5%; */
 	margin-bottom: -20px;
 	background-color: #4b73b5;
 	border-style: none;
 	letter-spacing: 3px;
 	border-radius: 5px;
 	color: white;
-	/* padding: 0 0px; */
 	cursor: pointer;
 }
 
 .button__elem:hover {
 	background-color: white;
 	color: #4b73b5;
+	transition: .5s;
 }
 
 .pip:before {
-	background-image: url(../../img/plane-white.png);
+	background-image: url(./../../img/sprite.png) 0px 0px;
 }
 
 .pip, .pop {
@@ -135,4 +148,8 @@
 
 .pop {
 	padding: 10px 0;
+}
+
+.pop:before {
+	background-image: url(./../../img/sprite.png) -48px -18px;
 }

@@ -1,37 +1,32 @@
-.content__rates {
-  margin-top: -44px;
-  margin-bottom: 8px;
-}
-
-.rates {
-  display: flex;
-  margin-top: 77px;
-}
-
 .rates__section {
-  display: inline-block;
-  width: 29%;
-  margin-right: 25px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e8e9ed;
+  margin-bottom: 25px;
+  padding: 0px 20px;
   box-sizing: border-box;
-  border-bottom: 2px solid transparent;
 }
-
-.rates__section:last-child {
-  margin-right: 0px;
-}
-
-.rates__section:hover {
-  border-bottom: 2px solid #f5f5f5;
-}
-
 
 .rates__text {
-  box-sizing: border-box;
   text-align: left;
 }
 
 .rates__name {
+  text-align: center;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 51.38px;
+  text-transform: uppercase;
+  letter-spacing: 1.32px;
+  margin-bottom: 0px;
+}
+
+.rates__name-two {
   text-align: center;
   color: #212121;
   font-family: Roboto;
@@ -40,25 +35,7 @@
   line-height: 51.38px;
   text-transform: uppercase;
   letter-spacing: 2.88px;
-  margin-top: 13px;
-}
-
-.rates__picture {
-  border-radius: 50%;
-  width: 72px;
-  height: 72px;
-  background-color: #4b73b5;
-  text-align: center;
-  margin: auto;
-  display: block;
-  position: relative;
-}
-
-.rates__flower, .rates__star, .rates__palette {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-bottom: 7px;
 }
 
 .rates__par {
@@ -66,30 +43,30 @@
   font-family: Roboto;
   font-size: 18px;
   font-weight: 300;
-  text-align: center;
-  margin-top: -6px;
+  text-align: left;
+  margin-top: 0px;
   line-height: 1.7em;
+  padding: 0px 25px;
 }
 
 .rates__list {
-  padding: 0  25px;
+  padding: 0  30px;
   width: 185px;
   height: 50px;
   color: #221f1f;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 300;
-  margin-top: -10px;
+  margin-top: 0px;
   line-height: 1.8em;
 }
 
 .rates__list>li {
-  list-style: outside;
+  list-style: inside;
 }
 
 .rates__list {
-  padding-left: 50px;
-  vertical-align: left;
+  padding-left: 0px;
 }
 
 .rates__price {
@@ -99,7 +76,7 @@
   font-weight: 400;
   letter-spacing: -1.07px;
   text-align: center;
-  margin-top: 52px;
+  margin-top: 43px;
 }
 
 .dollar {

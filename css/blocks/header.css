@@ -1,7 +1,7 @@
 .header {
   background: #4b73b5;
   color: #fff;
-  margin-bottom: 13px;
+  margin-bottom: 20px;
 }
 
 .header__container {
@@ -30,8 +30,73 @@
 }
 
 .working__time {
+  display: flex;
+  justify-content:flex-end;
   text-decoration: underline;
-  opacity: .7;
   font-size: 14px;
   margin-top: -3px;
+  position: relative;
 }
+
+
+.working__time-title:hover {
+  opacity: 1;
+  width: 100%;
+  transition: 3ms;
+}
+
+.working__time-title:hover .working__triangle {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  transition: 3ms;
+}
+
+.working__time-title:hover .working__list{
+  display: flex;
+  box-shadow: 0 0 10px  rgb(0, 0 ,0 ,.7);
+  transition: 3ms;
+}
+
+.working__menu {
+  position: absolute;
+  top: 100%;
+}
+
+.working__list {
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  display: none;
+}
+
+.working__list-one {
+  color: blue;
+  font: "Roboto - Bold";
+  font-weight: 700;
+}
+
+.triangle {
+  display: flex;
+  height: 0;
+  width: 0;
+  border: 13px solid transparent;
+  border-bottom-width: 15px;
+  border-bottom-color: white;
+  border-top-width: 0;
+  padding: 0;
+}
+
+.working__time-title {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  position: relative;
+  opacity: .5;
+}
+
+.working__triangle {
+  display: none;
+}
+
